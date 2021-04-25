@@ -18,6 +18,12 @@
 ![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/denoised.png)<br /> <br />
 ![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/denoised_2.png)<br /> <br />
 
+## Requirements <br />
+### [Tensorflow](https://www.tensorflow.org/install) 2.0 or greater
+### [Cuda](https://developer.nvidia.com/cuda-toolkit-archive) and [Cudnn](https://developer.nvidia.com/cudnn) 10.1 or better
+### [Python3] (https://www.python.org/downloads/)
+### This work has been developed with: <br />
+![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/pc_specs.png)<br /> <br />
 
 ## Instruction of use <br />
 ### Model Training <br />
