@@ -23,7 +23,7 @@
 Make sure you have downloaded and extracted the files of the training dataset "noise_0_to_50" from the drive folder which is ready to use. <br />
 
 Alternatively you may download the original [dataset](https://www.kaggle.com/c/histopathologic-cancer-detection/data) from Kaggle and extract the files. <br /> <br />
-After downloading the original dataset from Kaggle you may need to: <br /><br />
+If you downloaded the original dataset from Kaggle you may need to: <br /><br />
      I) Use the snippet "renaming_files_ascending_order" located in "Utils" folder. <br />
     II) Use the program "multipleImageNoiseCreator.py" located in "Utils" folder. <br />
    III) Please make sure you have a folder with name files 1_clean.tif, 1_noise.tif, 2_clean.tif, 2_noise.tif ... etc. <br /><br />
