@@ -16,3 +16,15 @@
 
 ## Denoising results
 ![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/denoised.png)<br /> <br />
+
+
+## Instruction of use <br />
+### Model Training <br />
+Make sure you have downloaded and extracted the files of the training dataset "noise_0_to_50" from the drive folder which is ready to use. <br />
+
+Alternatively you may download the original [dataset](https://www.kaggle.com/c/histopathologic-cancer-detection/data) from Kaggle and extract the files <br />
+After downloading the original dataset from Kaggle you may need to: <br />
+     I) Use the snippet "renaming_files_ascending_order" located in "Utils" folder <br />
+    II) Use the program "multipleImageNoiseCreator.py" located at "Utils"
+At this point you should have the dataset ready to use for training. <br />
+We may now configure the "main.py" program located in "Code" folder.
