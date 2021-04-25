@@ -22,19 +22,19 @@ def loadImage(file):
 #########      Please state the name of the files     #########
 #########        you want to use for testing          #########
 ###################      EXAMPLES     #########################
-###							    ###
+###															###
 ###        cleanImagePath = "testSample_10/1_clean.tif"     ###
 ###        noiseImagePath = "testSample_10/1_noise.tif"     ###
-###							    ###
+###															###
 ###        cleanImagePath = "testSample_25/2_clean.tif"     ###
 ###        noiseImagePath = "testSample_25/2_noise.tif"     ###
-###							    ###
+###															###
 ###        cleanImagePath = "testSample_50/3_clean.tif"     ###
 ###        noiseImagePath = "testSample_50/3_noise.tif"     ###
-###							    ###
+###															###
 ###        cleanImagePath = "testSample_10/4_clean.tif"     ###
 ###        noiseImagePath = "testSample_10/4_noise.tif"     ###
-###							    ###
+###															###
 ###############################################################
 
 
@@ -92,7 +92,7 @@ print("PSNR: {:.6f}    SSIM: {:.6f}".format(psnr,ssim))
 plt.figure(figsize=(50,50))
 ## Noise
 ax = plt.subplot(1,3,1)
-ax.set_title("Noise Image", fontsize=20)
+ax.set_title("Noisy Image", fontsize=20)
 plt.imshow(noise)
 plt.gray()
 ax.get_xaxis().set_visible(False)
@@ -100,7 +100,7 @@ ax.get_yaxis().set_visible(False)
 
 ## Original
 ax = plt.subplot(1,3,2)
-ax.set_title("Original Image", fontsize=20)
+ax.set_title("Clean Image", fontsize=20)
 plt.imshow(clean)
 plt.gray()
 ax.get_xaxis().set_visible(False)
@@ -108,7 +108,7 @@ ax.get_yaxis().set_visible(False)
 
 ## Denoise
 ax = plt.subplot(1,3,3)
-ax.set_title("Denoise Image", fontsize=20)
+ax.set_title("Denoised Image", fontsize=20)
 plt.imshow(denoised)
 plt.gray()
 ax.get_xaxis().set_visible(False)
