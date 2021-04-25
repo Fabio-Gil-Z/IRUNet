@@ -25,15 +25,16 @@
 ### This work has been developed with: <br />
 ![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/pc_specs.png)<br /> <br />
 
-## Instruction of use <br />
+## Instructions of use <br />
 ### Model Training <br />
-Make sure you have downloaded and extracted the files of the training dataset "noise_0_to_50" from the drive folder which is ready to use. <br />
+Make sure you have downloaded and extracted the files of the training dataset [noise_0_to_50](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) from the drive folder which is ready to use. <br />
 
 Alternatively you may download the original [dataset](https://www.kaggle.com/c/histopathologic-cancer-detection/data) from Kaggle and extract the files. <br /> <br />
 If you downloaded the original dataset from Kaggle you may need to: <br /><br />
-     I) Use the snippet "renaming_files_ascending_order" located in [Util](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util) folder. <br />
-    II) Use the program "multipleImageNoiseCreator.py" located in [Util](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util) folder. <br />
+     I) Use the snippet [renaming_files_ascending_order](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/ubuntu_snippets/renaming_files_ascending_order) located in [Util](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util) folder. <br />
+    II) Use the program [multipleImageNoiseCreator.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/multipleImageNoiseCreator.py) located in [Util](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util) folder. <br />
    III) Please make sure you have a folder with name files 1_clean.tif, 1_noise.tif, 2_clean.tif, 2_noise.tif ... etc. <br /><br />
+   [Here](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/testSample_10) is an example of how your folder should look like with only 10 images.
 At this point you should have the dataset ready to use for training. <br /><br />
 We may now configure the "main.py" program located in "Code" folder. <br />
 Default settings for training: <br /><br />
