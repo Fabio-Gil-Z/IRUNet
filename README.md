@@ -49,7 +49,7 @@ Make sure both of these names match, for more information look at "main.py".<br 
 modelName = "myDenoiser" <br />
 weights = "myDenoiser"   <br />
 
-Defaults to False <br />
+Defaults to "False" <br />
 loadWeights = False   Use in case you want to resume your training if for some reason it was stopped. <br />
 
 epoch_assignation = 1000  You may choose a number of epochs for training <br />
