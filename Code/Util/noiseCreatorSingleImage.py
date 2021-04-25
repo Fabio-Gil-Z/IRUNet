@@ -17,15 +17,15 @@ from skimage.io import imread,imsave
 #########      Please state the name of the file      #########
 #########  you want to use to corrupt it with noise   #########
 ###################      EXAMPLES     #########################
-###															###
+###															                            ###
 ###        cleanImagePath = "testSample_10/1_clean.tif"     ###
-###															###
+###															                            ###
 ###        cleanImagePath = "testSample_25/2_clean.tif"     ###
-###															###
+###															                            ###
 ###        cleanImagePath = "testSample_50/3_clean.tif"     ###
-###															###
+###															                            ###
 ###        cleanImagePath = "testSample_10/4_clean.tif"     ###
-###															###
+###															                            ###
 ###############################################################
 cleanImagePath  = "testSample_10/1_clean.tif"
 
