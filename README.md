@@ -102,3 +102,7 @@ In order to test the model over a single image, we will be using [singleImageTes
 
 #### Example of expected output
 ![singleImageTester_expected_output](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/singleImageTester_expected_output.png)<br /> <br />
+
+#### *You may configure the file to change the default path, in this case we have three paths, the noisy image path, the clean image path and the output folder path which defaults to [single_Image_tester_Results](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/single_Image_tester_Results) located at [Util](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util).* <br />
+
+#### *You may test it with the images from the sample testing folders: [testSample_10](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/testSample_10), [testSample_25](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/testSample_25) or [testSample_50](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/testSample_50). Remember there are only 10 images in our github repository folder for different levels of noise; The idea is to use it with the [noise_10](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing), [noise_25](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) and [noise_50](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) testing datasets*. <br /> <br />
