@@ -50,7 +50,8 @@ modelName = "myDenoiser" <br />
 weights = "myDenoiser"   <br />
 
 Defaults to "False" <br />
-loadWeights = False   Use in case you want to resume your training if for some reason it was stopped. <br />
+loadWeights = False  <br />
+Use in case you want to resume your training if for some reason it was stopped. <br />
 
 epoch_assignation = 1000  You may choose a number of epochs for training <br />
 
