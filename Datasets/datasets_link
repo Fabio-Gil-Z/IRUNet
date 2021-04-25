@@ -1,0 +1,18 @@
+The following link sends you to the datasets in my drive
+
+The datasets noise_10, noise_25, noise_50 are designed for testing.
+They are datasets with image pairs (clean,noise) with fixed noise 10,25,50 depending on the folder
+
+The folder noise_0_to_50 is the training dataset I used for training.
+It was corrupted with noise [0,50] of standard deviation.
+
+Remember this is the training kaggle dataset:
+Source https://www.kaggle.com/c/histopathologic-cancer-detection/data
+
+A total of 4400 images of each standard deviation were created with my python program
+multipleImageNoiseCreator.py in the Utils folder.
+
+You may use it to create your own training dataset.
+
+
+https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing

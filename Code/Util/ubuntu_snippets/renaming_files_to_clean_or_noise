@@ -1,0 +1,24 @@
+!!!---WARNING---!!
+
+The following snippet renames files in a folder ONLY if they are NAMED in ascending order:
+
+your folder files should look like this:
+1.tif, 2.tif, 3.tif, ... etc
+
+If your files do not look like this please use the "renaming_files_ascending_order" snippet first
+
+Intructions of use:
+
+1) Open a terminal in the folder you want to rename the files
+2) Copy the one of the snippets below depending on your needs
+3) Paste it in the terminal  (shift + insert)
+
+for f in *.tif; do
+    mv -- "$f" "${f%.tif}_clean.tif"
+done
+
+
+
+for f in *.tif; do
+    mv -- "$f" "${f%.tif}_noise.tif"
+done

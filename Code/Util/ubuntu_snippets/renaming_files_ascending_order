@@ -1,0 +1,11 @@
+The following snippet renames files in a folder in ascending order:
+
+1.tif, 2.tif, 3.tif, ... etc
+
+Intructions of use:
+
+1) Open a terminal in the folder you want to rename the files
+2) Copy the snippet below
+3) Paste it in the terminal  (shift + insert)
+
+ls -v | cat -n | while read n f; do mv -n "$f" "$n.tif"; done
