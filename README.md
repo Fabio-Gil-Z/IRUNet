@@ -1,6 +1,6 @@
 # IRUNet
 
- 
+![IRUNet architecture](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/IRUNet_network_architecture.pdf)<br /> <br />
 Original Dataset
 [Kaggle](https://www.kaggle.com/c/histopathologic-cancer-detection/data)
 
