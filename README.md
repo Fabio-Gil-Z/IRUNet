@@ -94,4 +94,6 @@ In order to test the model over a group of images, we will be using [averageTest
 #### Example of expected output
 ![averageTester_expected_output](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/averageTester_expected_output.png)<br /> <br />
 
+You may configure the file to change the default test folder, the idea is to use it with the [noise_10](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing), [noise_25](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) and [noise_50](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) testing datasets.
+
 #### Testing over a single image
