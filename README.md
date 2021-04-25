@@ -25,7 +25,40 @@ Make sure you have downloaded and extracted the files of the training dataset "n
 Alternatively you may download the original [dataset](https://www.kaggle.com/c/histopathologic-cancer-detection/data) from Kaggle and extract the files. <br /> <br />
 After downloading the original dataset from Kaggle you may need to: <br /><br />
      I) Use the snippet "renaming_files_ascending_order" located in "Utils" folder. <br />
-    II) Use the program "multipleImageNoiseCreator.py" located at "Utils" folder. <br />
+    II) Use the program "multipleImageNoiseCreator.py" located in "Utils" folder. <br />
    III) Please make sure you have a folder with name files 1_clean.tif, 1_noise.tif, 2_clean.tif, 2_noise.tif ... etc. <br /><br />
 At this point you should have the dataset ready to use for training. <br /><br />
 We may now configure the "main.py" program located in "Code" folder. <br />
+Default settings for training: <br />
+BATCH_SIZE = 32 <br />
+
+DATASET_DIRECTOY = "path/to/noise_0_to_50" Here you may type the dataset directory in which you downloaded / created the training dataset. <br />
+
+Default name: Models <br />
+DIRECTORY_TO_SAVE_MODELS = "Models" <br />
+
+#Default name: Tensorboard <br />
+DIRECTORY_TO_SAVE_TENSORBOARD = "Tensorboard" <br />
+
+Default name: Epoch_results <br />
+DIRECTORY_TO_SAVE_EACH_EPOCH_RESULT = "Epoch_results" in this folder images will be saved after each epoch, showcasing the learning progress of the network <br />
+
+Make sure both of these names match, for more information look at "main.py".<br />
+modelName = "myDenoiser" <br />
+weights = "myDenoiser"   <br />
+
+Defaults to False <br />
+loadWeights = False   Use in case you want to resume your training if for some reason it was stopped. <br />
+
+epoch_assignation = 1000  You may choose a number of epochs for training <br />
+
+filters = 16 You may choose to change the number of filters <br />
+
+Defaults to: ADAM_optimizer <br />
+optimizer       = ADAM_optimizer You may choose other optimizers, for more information look at "main.py"<br />
+
+We have successfully finished configuring our "main.py" file. <br />
+
+You may run the program with "python3 main.py" execution line in the terminal.
+
+
