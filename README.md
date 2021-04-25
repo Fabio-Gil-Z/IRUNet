@@ -75,16 +75,16 @@ Defaults to "False" <br />
 
 **optimizer = ADAM_optimizer** <br />
 Defaults to: ADAM_optimizer <br />
-*You may choose other optimizers, for more information look at "main.py"*.<br />
+*You may choose other optimizers, for more information look at [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py)*.<br />
 
 
 **loss_function   = "MeanAbsoluteError"** <br />
 Defaults to: "MeanAbsoluteError" <br />
 *You may try: "MeanSquaredError"*.
 
-We have successfully finished configuring our "main.py" file. <br />
+### We have successfully finished configuring our [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py) file. <br />
 
-You may run the program with "python3 main.py" execution line at the terminal. <br />
+You may run the program with "python3 [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py)" execution line at the terminal. <br />
 
 ### Model Testing <br />
 
