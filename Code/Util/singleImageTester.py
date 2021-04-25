@@ -41,6 +41,8 @@ def loadImage(file):
 cleanImagePath = "testSample_50/4_clean.tif"
 noiseImagePath = "testSample_50/4_noise.tif"
 
+results_output_folder = "results_output_folder"
+
 
 #Please state the folder in which you have the models saved
 #Default name: "Models/"
@@ -118,6 +120,6 @@ plt.figtext(0.87, 0.22, "SSIM: {:.4f}".format(ssim), ha="center", fontsize=25, b
 plt.show()
 
 
-imsave("single_Image_tester_Results/clean.tif",(clean*255).astype(np.uint8))
-imsave("single_Image_tester_Results/noise.tif",(noise*255).astype(np.uint8))
-imsave("single_Image_tester_Results/denoised.tif",(denoised*255).astype(np.uint8))
+imsave(results_output_folder + "/clean.tif",(clean*255).astype(np.uint8))
+imsave(results_output_folder + "/noise.tif",(noise*255).astype(np.uint8))
+imsave(results_output_folder + "/denoised.tif",(denoised*255).astype(np.uint8))
