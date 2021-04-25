@@ -71,14 +71,14 @@ generator       = load_dataset.testSequence(x_noise,x_clean,BATCH_SIZE)
 
 
 #Please state the name you want to save the model with
-modelName = "Probando"
+modelName = "myDenoiser"
 
 #Please state the name of the model you want to load the weights from
 #This can be used to resume training in case it had to be stopped
 #Default name: same as <modelName>
 #For example if your model is named: myModel_2
 #Then you should put myModel_2 in the variable "weights" too
-weights = "Probando"
+weights = "myDenoiser"
 
 
 #Used to load the weights, (leave it, as it is)
