@@ -24,7 +24,7 @@ def loadImage(file):
 #For testing you should have double the amount of image samples, because you need 'image pairs'
 #Total number of image pairs on the folder ( e.g. (total folder images / 2))
 #For example if you have 100k images, 50k should be clean and 50k should be noisy e.g. (clean,noise)
-#Thus the total number of samples would be 50k.
+#Thus the total number of image pairs would be 50k.
 
 ###########################################################################
 # Make sure for every clean image, you have its corresponding noise image #
