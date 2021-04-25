@@ -59,7 +59,7 @@ Default name: Epoch_results <br />
 
 **modelName = "myDenoiser"** <br />
 **weights = "myDenoiser"**   <br />
-*Make sure both of these names match, for more information look at "main.py".* <br />
+*Make sure both of these names match, for more information look at [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py).* <br />
 
 
 **loadWeights = False**  <br />
