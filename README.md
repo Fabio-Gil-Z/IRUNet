@@ -38,7 +38,7 @@ Here you may type the dataset directory in which you downloaded / created the tr
 Default name: Models <br />
 DIRECTORY_TO_SAVE_MODELS = "Models" <br />
 
-#Default name: Tensorboard <br />
+Default name: Tensorboard <br />
 DIRECTORY_TO_SAVE_TENSORBOARD = "Tensorboard" <br />
 
 Default name: Epoch_results <br />
