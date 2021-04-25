@@ -36,7 +36,7 @@ If you downloaded the original dataset from Kaggle you may need to: <br /><br />
    III) Please make sure you have a folder with name files 1_clean.tif, 1_noise.tif, 2_clean.tif, 2_noise.tif ... etc. <br /><br />
    [Here](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/testSample_10) is an example how your folder should look like with only 10 images.<br />
 ### *At this point you should have the dataset ready to use for training.* <br /><br />
-We may now configure the "main.py" program located in "Code" folder. <br />
+We may now configure the [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py) program located in [Code](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code) folder. <br />
 Default settings for training: <br /><br />
 **BATCH_SIZE = 32** <br />
 
