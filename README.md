@@ -3,7 +3,7 @@
 ![IRUNet architecture](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/IRUNet_network_architecture.png)<br /> <br />
 ## Original Dataset [Kaggle](https://www.kaggle.com/c/histopathologic-cancer-detection/data)
 ![kaggle dataset description](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/kaggle_dataset_description.png)<br /> <br />
-## Created [Datasets](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) for training and testing a denosing medical image neural network  <br />
+## Created [Datasets](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) for Training and Testing <br />
 ![self created datasets](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/self_created_datasets_sample_image.png)<br /> <br />
 ## For model training <br />
 #### Histopathologic Cancer Detection dataset "train" was used to create the training set of images (clean,noise) named "noise_0_to_50" using "multipleImageNoiseCreator.py" program from "Utils" folder, meaning with noise ranges σ[0,50]
