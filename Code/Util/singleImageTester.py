@@ -22,19 +22,19 @@ def loadImage(file):
 #########      Please state the name of the files     #########
 #########        you want to use for testing          #########
 ###################      EXAMPLES     #########################
-###															###
+###							    ###
 ###        cleanImagePath = "testSample_10/1_clean.tif"     ###
 ###        noiseImagePath = "testSample_10/1_noise.tif"     ###
-###															###
+###							    ###
 ###        cleanImagePath = "testSample_25/2_clean.tif"     ###
 ###        noiseImagePath = "testSample_25/2_noise.tif"     ###
-###															###
+###							    ###
 ###        cleanImagePath = "testSample_50/3_clean.tif"     ###
 ###        noiseImagePath = "testSample_50/3_noise.tif"     ###
-###															###
+###							    ###
 ###        cleanImagePath = "testSample_10/4_clean.tif"     ###
 ###        noiseImagePath = "testSample_10/4_noise.tif"     ###
-###															###
+###							    ###
 ###############################################################
 
 
