@@ -30,36 +30,43 @@ If you downloaded the original dataset from Kaggle you may need to: <br /><br />
 At this point you should have the dataset ready to use for training. <br /><br />
 We may now configure the "main.py" program located in "Code" folder. <br />
 Default settings for training: <br /><br />
-BATCH_SIZE = 32 <br />
+**BATCH_SIZE = 32** <br />
 
-DATASET_DIRECTOY = "path/to/noise_0_to_50" <br />
+**DATASET_DIRECTOY = "path/to/noise_0_to_50"** <br />
 Here you may type the dataset directory in which you downloaded / created the training dataset. <br />
 
+
+**DIRECTORY_TO_SAVE_MODELS = "Models"** <br />
 Default name: Models <br />
-DIRECTORY_TO_SAVE_MODELS = "Models" <br />
 
+
+**DIRECTORY_TO_SAVE_TENSORBOARD = "Tensorboard"** <br />
 Default name: Tensorboard <br />
-DIRECTORY_TO_SAVE_TENSORBOARD = "Tensorboard" <br />
 
+
+**DIRECTORY_TO_SAVE_EACH_EPOCH_RESULT = "Epoch_results"** <br />
 Default name: Epoch_results <br />
-DIRECTORY_TO_SAVE_EACH_EPOCH_RESULT = "Epoch_results" <br />
-In this folder images will be saved after each epoch, showcasing the learning progress of the network. <br />
+*In this folder images will be saved after each epoch, showcasing the learning progress of the network.* <br />
 
-Make sure both of these names match, for more information look at "main.py".<br />
-modelName = "myDenoiser" <br />
-weights = "myDenoiser"   <br />
+
+**modelName = "myDenoiser"** <br />
+**weights = "myDenoiser"**   <br />
+*Make sure both of these names match, for more information look at "main.py".* <br />
 
 Defaults to "False" <br />
 loadWeights = False  <br />
-Use in case you want to resume your training if for some reason it was stopped, you may want to change it to "True". <br />
+*Use in case you want to resume your training if for some reason it was stopped, you may want to change it to "True".* <br />
 
-epoch_assignation = 1000  You may choose a number of epochs for training <br />
+**epoch_assignation = 1000** <br />
+*You may choose a number of epochs for training.* <br />
 
-filters = 16 You may choose to change the number of filters <br />
+**filters = 16** <br />
+*You may choose to change the number of filters* <br />
 
+
+**optimizer = ADAM_optimizer** <br />
 Defaults to: ADAM_optimizer <br />
-optimizer = ADAM_optimizer <br />
-You may choose other optimizers, for more information look at "main.py".<br />
+*You may choose other optimizers, for more information look at "main.py"*.<br />
 
 We have successfully finished configuring our "main.py" file. <br />
 
