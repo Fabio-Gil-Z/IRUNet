@@ -53,9 +53,10 @@ Default name: Epoch_results <br />
 **weights = "myDenoiser"**   <br />
 *Make sure both of these names match, for more information look at "main.py".* <br />
 
+
+**loadWeights = False**  <br />
 Defaults to "False" <br />
-loadWeights = False  <br />
-*Use in case you want to resume your training if for some reason it was stopped, you may want to change it to "True".* <br />
+*Use in case you want to resume your training if for some reason it was stopped, you may want to change it to **"True"**.* <br />
 
 **epoch_assignation = 1000** <br />
 *You may choose a number of epochs for training.* <br />
