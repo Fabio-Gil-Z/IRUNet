@@ -16,6 +16,7 @@
 
 ## Denoising results
 ![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/denoised.png)<br /> <br />
+![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/denoised_2.png)<br /> <br />
 
 
 ## Instruction of use <br />
