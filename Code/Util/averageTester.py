@@ -24,7 +24,7 @@ def loadImage(file):
 #For testing you should have double the amount of image samples, because you need 'image pairs'
 #Total number of image pairs on the folder ( e.g. (total folder images / 2))
 #For example if you have 100k images, 50k should be clean and 50k should be noisy e.g. (clean,noise)
-#Thus the total number of image pairs would be 50k.
+#Thus the total number of samples would be 50k.
 
 ###########################################################################
 # Make sure for every clean image, you have its corresponding noise image #
@@ -53,11 +53,11 @@ def loadImage(file):
 #Number of samples you want to obtain the average to.
 #For example 100, 1000, 10000 or the whole dataset 57458
 #Defaults to: 10 for the images on the github repository
-total_number_of_samples = 10
+total_number_of_samples = 1000
 
 #Folder path where the image pairs (clean,noise) are stored
 #Default names: testSample_10, testSample_25, testSample_50
-pathFolder    = "testSample_50"
+pathFolder    = "/media/neuronelab/EXP_FABIO1/Downloaded_Datasets/noise_10/"
 file_extension  = ".tif"
 
 
@@ -74,20 +74,23 @@ modelName       = "IRUNet"
 
 #Loading model
 model           = tf.keras.models.load_model(modelPathFolder + modelName)
-#Measuring computing time
-start_time = time.time()
+model.predict(np.zeros((1,96,96,3)))
+
 #Variable to accumulate the psnr acquired of each image it is denoised
 accumulated_psnr  = 0
 #Variable to accumulate the ssim acquired of each image it is denoised
 accumulated_ssim  = 0
-
-
+#Variable to accumulate the computation time
+accumulated_time  = 0
 for i in range(1,total_number_of_samples+1):
 	#Loading image pairs (clean, noise)
 	clean    = loadImage(pathFolder + '/{}_clean'.format(i) + '{}'.format(file_extension))
 	noise    = loadImage(pathFolder + '/{}_noise'.format(i) + '{}'.format(file_extension))
+	#Measuring computing time
+	start_time = time.time()
 	#Creating the denoised image with the model
 	denoised = model.predict(noise)
+	accumulated_time += time.time() - start_time
 	#Removing the batch dimension from the tensor, from (1,96,96,3) to (96,96,3)
 	#in order to enable the psnr and ssim calculation
 	clean    = np.squeeze(clean)
@@ -112,10 +115,9 @@ for i in range(1,total_number_of_samples+1):
 	data_range=1.0)
 	accumulated_ssim += ssim
 	print("Image: {}    PSNR: {:.6f}    SSIM: {:.6f}".format(i,psnr,ssim))
-
 average_psnr = accumulated_psnr / total_number_of_samples
 average_ssim = accumulated_ssim / total_number_of_samples
 print("Average PSNR: {}".format(average_psnr))
 print("Average SSIM: {}".format(average_ssim))
 
-print("--- %s seconds ---" % (time.time() - start_time))
+print("Average computation time per image --- %s seconds ---", (accumulated_time/total_number_of_samples))
