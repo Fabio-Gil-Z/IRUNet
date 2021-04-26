@@ -116,13 +116,13 @@ In order to test the model over a single image, we will be using [singleImageTes
 
 Make sure you have a folder with the images named 1.tif, 2.tif, 3.tif, 4.tif ... etc. You may use [renaming_files_ascending_order](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/ubuntu_snippets/renaming_files_ascending_order) for this task, because the file names from the original dataset are too long. <br />
 
-This is how the image names come by default from the kaggle website <br />
+This is how the image names come by default from the kaggle website <br /><br />
 ![dataset_long_names](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/dataset_long_names.png)
 
-After running [renaming_files_ascending_order](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/ubuntu_snippets/renaming_files_ascending_order) we will have a folder looking like this
+After running [renaming_files_ascending_order](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/ubuntu_snippets/renaming_files_ascending_order) we will have a folder looking like this <br /><br />
 ![dataset_short_names](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/dataset_short_names.png)
 
-#### If you have the folder that looks like the previous image we can continue <br />
+### If you have the folder that looks like the previous image we can continue <br />
 We will be using [multipleImageNoiseCreator.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/multipleImageNoiseCreator.py) for corrupting the images between ranges of σ[0,50]. You need to state the **inputfolder** , it does not have a default folder path.<br />
 
 After you have written down the input folder now we need to state the **outputfolder**  in which the image pairs (clean,noise) will be created.<br />
