@@ -110,6 +110,12 @@ In order to test the model over a single image, we will be using [singleImageTes
 
 ### Creation of noise <br />
 
+#### Following, are the codes which were used for the generation of Addiive White Gaussian Noise (AWGN). <br />
+#### The noise was created using the numpy library. <br />
+#### For fair comparison and reproducibility seeding was employed. <br />
+
+### The noise generated images process is displayed below <br />
+![noise_creation](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/noise_creation.png)
 #### Creating noise for the whole [Histopathologic Cancer Detection dataset](https://www.kaggle.com/c/histopathologic-cancer-detection/data)
 
 #### Before you begin <br />
@@ -126,7 +132,17 @@ After running [renaming_files_ascending_order](https://github.com/Fabio-Gil-Z/IR
 We will be using [multipleImageNoiseCreator.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/multipleImageNoiseCreator.py) for corrupting the images between ranges **σ[0,50].** <br />
 You need to state the **<<"inputfolder">>**, it does not have a default folder path. <br />
 
-After you have written down the input folder now we need to state the **<<"outputfolder">>** in which the image pairs (clean,noise) will be created, it does not have a default folder path.<br />
+After you have written down the input folder now we need to state the **<<"outputfolder">>** in which the image pairs (clean,noise) will be created.<br />
 
 The expected output folder would look like this <br /> <br />
 ![averageTester_expected_output](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/multipleImageNoiseCreator_expected_output.png)
+
+
+#### Creating noise for a single image
+
+Here we will be creating a noisy image using [noiseCreatorSingleImage](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/noiseCreatorSingleImage.py). <br />
+
+We only need to state two things, the path to the clean image and the **outputput folder** which defaults to [noise_Images_Created_By_User](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/noise_Images_Created_By_User) and the expected output can be seen in the same folder. <br />
+
+You may choose the level of corruption, which is stated as **noise_standard_deviation **.<br />
+
