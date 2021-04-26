@@ -40,9 +40,7 @@ def loadImage(file):
 
 cleanImagePath = "testSample_50/4_clean.tif"
 noiseImagePath = "testSample_50/4_noise.tif"
-
-results_output_folder = "results_output_folder"
-
+results_output_folder = "single_Image_tester_Results"
 
 #Please state the folder in which you have the models saved
 #Default name: "Models/"
@@ -53,6 +51,7 @@ modelPathFolder = "Models/"
 #Default name: IRUNet
 modelName 	   = "IRUNet"
 model     	   = tf.keras.models.load_model(modelPathFolder + modelName)
+model.predict(np.zeros((1,96,96,3)))
 
 
 #Loading image pairs (clean, noise)
@@ -62,7 +61,7 @@ noise    = loadImage(noiseImagePath)
 #Creating the denoised image with the model
 start_time = time.time()
 denoised = model.predict(noise)
-print("--- %s seconds ---" % (time.time() - start_time))
+print("Computation time --- %s seconds ---" % (time.time() - start_time))
 
 #Removing the batch dimension from the tensor, from (1,96,96,3) to (96,96,3)
 #in order to enable the psnr and ssim calculation
@@ -123,4 +122,4 @@ plt.show()
 imsave(results_output_folder + "/clean.tif",(clean*255).astype(np.uint8))
 imsave(results_output_folder + "/noise.tif",(noise*255).astype(np.uint8))
 imsave(results_output_folder + "/denoised.tif",(denoised*255).astype(np.uint8))
-print("Selected output folder: {}".format(results_output_folder))
+print("Selected output folder: '{}'".format(results_output_folder))
