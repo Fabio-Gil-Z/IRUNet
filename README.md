@@ -24,7 +24,7 @@
 ### [Python3](https://www.python.org/downloads/)
 ### This work has been developed with: <br />
 ![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/pc_specs.png)<br /> <br />
-
+---
 ## Instructions of use <br />
 ### Model Training <br />
 Make sure you have downloaded and extracted the files of the training dataset [noise_0_to_50](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) from the drive folder which is ready to use. <br />
