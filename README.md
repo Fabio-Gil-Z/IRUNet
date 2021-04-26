@@ -114,7 +114,8 @@ In order to test the model over a single image, we will be using [singleImageTes
 #### The noise was created using the numpy library. <br />
 #### For fair comparison and reproducibility seeding was employed. <br />
 
-### The noise generated images process is displayed below <br />
+### The process to create noisy images is displayed below. <br />
+### A clean image is added with a noise map to create a noisy image. <br />
 ![noise_creation](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/noise_creation.png)
 #### Creating noise for the whole [Histopathologic Cancer Detection dataset](https://www.kaggle.com/c/histopathologic-cancer-detection/data)
 
