@@ -106,3 +106,26 @@ In order to test the model over a single image, we will be using [singleImageTes
 #### *You may configure the file to change the default path, in this case we have three paths, the noisy image path, the clean image path and the output folder path which defaults to [single_Image_tester_Results](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/single_Image_tester_Results) located at [Util](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util).* <br />
 
 #### *You may test it with the images from the sample testing folders: [testSample_10](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/testSample_10), [testSample_25](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/testSample_25) or [testSample_50](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/testSample_50). Remember there are only 10 images in our github repository folder for different levels of noise; The idea is to use it with the [noise_10](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing), [noise_25](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) and [noise_50](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) testing datasets*. <br /> <br />
+
+
+### Creation of noise <br />
+
+#### Creating noise for the whole [Histopathologic Cancer Detection dataset](https://www.kaggle.com/c/histopathologic-cancer-detection/data)
+
+#### Before you begin <br />
+
+Make sure you have a folder with the images named 1.tif, 2.tif, 3.tif, 4.tif ... etc. You may use [renaming_files_ascending_order](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/ubuntu_snippets/renaming_files_ascending_order) for this task, because the file names from the original dataset are too long. <br />
+
+This is how the image names come by default from the kaggle website <br />
+![dataset_long_names](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/dataset_long_names.png)
+
+After running [renaming_files_ascending_order](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/ubuntu_snippets/renaming_files_ascending_order) we will have a folder looking like this
+![dataset_short_names](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/dataset_short_names.png)
+
+#### If you have the folder that looks like the previous image we can continue <br />
+We will be using [multipleImageNoiseCreator.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/multipleImageNoiseCreator.py) for corrupting the images between ranges of σ[0,50]. You need to state the **inputfolder** , it does not have a default folder path.<br />
+
+After you have written down the input folder now we need to state the **outputfolder**  in which the image pairs (clean,noise) will be created.<br />
+
+The expected output folder would look like this
+![averageTester_expected_output](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/averageTester_expected_output.png.png)
