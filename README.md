@@ -30,7 +30,7 @@
 Make sure you have downloaded and extracted the files of the training dataset [noise_0_to_50](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) from the drive folder which is ready to use. <br />
 
 Alternatively it is possible download the original [dataset](https://www.kaggle.com/c/histopathologic-cancer-detection/data) from Kaggle and extract the files. <br /> <br />
-If you downloaded the original dataset from Kaggle it is possible need to: <br /><br />
+If you downloaded the original dataset from Kaggle, please follow the next steps: <br /><br />
      I) Use the snippet [renaming_files_ascending_order](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/ubuntu_snippets/renaming_files_ascending_order) located in [Util](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util) folder. <br />
     II) Use the program [multipleImageNoiseCreator.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/multipleImageNoiseCreator.py) located in [Util](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util) folder. <br />
    III) Please make sure you have a folder with name files 1_clean.tif, 1_noise.tif, 2_clean.tif, 2_noise.tif ... etc. <br /><br />
@@ -41,7 +41,7 @@ If you downloaded the original dataset from Kaggle it is possible need to: <br /
 **BATCH_SIZE = 32** <br />
 
 **DATASET_DIRECTOY = "path/to/noise_0_to_50"** <br />
-Here it is possible type the dataset directory in which you downloaded / created the training dataset. <br />
+Here it is possible to type the dataset directory in which you downloaded / created the training dataset. <br />
 
 
 **DIRECTORY_TO_SAVE_MODELS = "Models"** <br />
@@ -64,26 +64,26 @@ Default name: Epoch_results <br />
 
 **loadWeights = False**  <br />
 Defaults to "False" <br />
-*Use in case you want to resume your training if for some reason it was stopped, it is possible want to change it to **"True"**.* <br />
+*Use in case you want to resume your training if for some reason it was stopped, it is possible to change it to **"True"**.* <br />
 
 **epoch_assignation = 1000** <br />
- it is possible choose a number of epochs for training.* <br />
+ it is possible cto hoose a number of epochs for training.* <br />
 
 **filters = 16** <br />
- it is possible choose to change the number of filters* <br />
+ it is possible to choose to change the number of filters* <br />
 
 
 **optimizer = ADAM_optimizer** <br />
 Defaults to: ADAM_optimizer <br />
- it is possible choose other optimizers, for more information look at [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py)*.<br />
+ it is possible to choose other optimizers, for more information look at [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py)*.<br />
 
 
 **loss_function   = "MeanAbsoluteError"** <br />
 Defaults to: "MeanAbsoluteError" <br />
- it is possible try: "MeanSquaredError"*.
+ it is possible to use: "MeanSquaredError"*.
 
 ### We have successfully finished configuring our [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py) file. <br />
- it is possible run the program with "python3 [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py)" execution line at the terminal. <br />
+ it is possible to run the program with "python3 [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py)" execution line at the terminal. <br />
 
 ### Model Testing <br />
 
@@ -93,7 +93,7 @@ In order to test the model over a group of images, we will be using [averageTest
 #### Example of expected output
 ![averageTester_expected_output](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/averageTester_expected_output.png)<br /> <br />
 
-####  it is possible configure the file to change the default path from the sample testing folder and the number of testing pairs (clean,noise), in this case there are only 10 images in our github repository folder for different levels of noise; it is possible configure it to do it for 100, 1000 or the whole test dataset at 57458 testing pairs. The idea is to use it with the [noise_10](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing), [noise_25](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) and [noise_50](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) testing datasets*. <br /> <br />
+####  it is possible to configure the file to change the default path from the sample testing folder and the number of testing pairs (clean,noise), in this case there are only 10 images in our github repository folder for different levels of noise; it is possible to configure it to do it for 100, 1000 or the whole test dataset at 57458 testing pairs. The idea is to use it with the [noise_10](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing), [noise_25](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) and [noise_50](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) testing datasets*. <br /> <br />
 
 #### Testing over a single image
 
@@ -102,9 +102,9 @@ In order to test the model over a single image, we will be using [singleImageTes
 #### Example of expected output
 ![singleImageTester_expected_output](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/singleImageTester_expected_output.png)<br /> <br />
 
-####  it is possible configure the file to change the default path, in this case we have three paths, the noisy image path, the clean image path and the output folder path which defaults to [single_Image_tester_Results](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/single_Image_tester_Results) located at [Util](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util).* <br />
+####  it is possible to configure the file to change the default path, in this case we have three paths, the noisy image path, the clean image path and the output folder path which defaults to [single_Image_tester_Results](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/single_Image_tester_Results) located at [Util](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util).* <br />
 
-####  it is possible test it with the images from the sample testing folders: [testSample_10](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/testSample_10), [testSample_25](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/testSample_25) or [testSample_50](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/testSample_50). Remember there are only 10 images in our github repository folder for different levels of noise; The idea is to use it with the [noise_10](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing), [noise_25](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) and [noise_50](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) testing datasets*. <br /> <br />
+####  it is possible to test it with the images from the sample testing folders: [testSample_10](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/testSample_10), [testSample_25](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/testSample_25) or [testSample_50](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/testSample_50). Remember there are only 10 images in our github repository folder for different levels of noise; The idea is to use it with the [noise_10](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing), [noise_25](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) and [noise_50](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) testing datasets*. <br /> <br />
 
 
 ### Creation of noise <br />
@@ -120,7 +120,7 @@ In order to test the model over a single image, we will be using [singleImageTes
 
 #### Before you begin <br />
 
-Make sure you have a folder with the images named 1.tif, 2.tif, 3.tif, 4.tif ... etc. it is possible use [renaming_files_ascending_order](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/ubuntu_snippets/renaming_files_ascending_order) for this task, because the file names from the original dataset are too long. <br />
+Make sure you have a folder with the images named 1.tif, 2.tif, 3.tif, 4.tif ... etc. it is possible to use [renaming_files_ascending_order](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/ubuntu_snippets/renaming_files_ascending_order) for this task, because the file names from the original dataset are too long. <br />
 
 This is how the image names come by default from the kaggle website <br /><br />
 ![dataset_long_names](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/dataset_long_names.png)
@@ -143,7 +143,7 @@ The expected output folder would look like this <br /> <br />
 Here we will be creating a noisy image using [noiseCreatorSingleImage](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/noiseCreatorSingleImage.py). <br />
 
 We only need to state two things, the path to the clean image and the **outputput folder** which defaults to [noise_Images_Created_By_User](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/noise_Images_Created_By_User) and the expected output can be seen in the same folder. <br />
- it is possible choose the level of corruption, which is stated as **noise_standard_deviation**. <br /><br /><br /><br /><br />
+ it is possible to choose the level of corruption, which is stated as **noise_standard_deviation**. <br /><br /><br /><br /><br />
 
 *That would be it for now, if you have any question / suggestions feel free to send me an email to: fhgil@utp.edu.co* <br />
 *Thank you for reading, have a great day!*
