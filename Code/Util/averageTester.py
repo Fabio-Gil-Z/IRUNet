@@ -53,11 +53,11 @@ def loadImage(file):
 #Number of samples you want to obtain the average to.
 #For example 100, 1000, 10000 or the whole dataset 57458
 #Defaults to: 10 for the images on the github repository
-total_number_of_samples = 1000
+total_number_of_samples = 10
 
 #Folder path where the image pairs (clean,noise) are stored
 #Default names: testSample_10, testSample_25, testSample_50
-pathFolder    = "/media/neuronelab/EXP_FABIO1/Downloaded_Datasets/noise_10/"
+pathFolder    = "testSample_10/"
 file_extension  = ".tif"
 
 
