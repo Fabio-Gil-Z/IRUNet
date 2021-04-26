@@ -146,6 +146,6 @@ We only need to state two things, the path to the clean image and the **outputpu
 
 You may choose the level of corruption, which is stated as **noise_standard_deviation **.<br /><br /><br />
 
-*That would be it for now, if you have any question / suggestions feel free to send me an email to: fhgil@utp.edu.co *
+That would be it for now, if you have any question / suggestions feel free to send me an email to: fhgil@utp.edu.co
 
 Thank you for reading, have a great day!
