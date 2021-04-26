@@ -128,5 +128,5 @@ We will be using [multipleImageNoiseCreator.py](https://github.com/Fabio-Gil-Z/I
 
 After you have written down the input folder now **we need to state the outputfolder** in which the image pairs (clean,noise) will be created.<br />
 
-The expected output folder would look like this
-![averageTester_expected_output](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/averageTester_expected_output.png)
+The expected output folder would look like this <br /> <br />
+![averageTester_expected_output](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/averageTester_expected_output.png)
