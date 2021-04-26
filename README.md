@@ -123,8 +123,8 @@ After running [renaming_files_ascending_order](https://github.com/Fabio-Gil-Z/IR
 ![dataset_short_names](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/dataset_short_names.png)
 
 ### If you have the folder that looks like the previous image we can continue <br />
-We will be using [multipleImageNoiseCreator.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/multipleImageNoiseCreator.py) for corrupting the images between ranges of σ[0,50]. <br />
-**You need to state the "inputfolder" , it does not have a default folder path.** <br />
+We will be using [multipleImageNoiseCreator.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/multipleImageNoiseCreator.py) for corrupting the images between ranges **σ[0,50].** <br />
+**<<You need to state the "inputfolder" , it does not have a default folder path.>>** <br />
 
 After you have written down the input folder now **we need to state the outputfolder** in which the image pairs (clean,noise) will be created.<br />
 
