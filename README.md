@@ -110,7 +110,7 @@ In order to test the model over a single image, we will be using [singleImageTes
 
 ### Creation of noise <br />
 
-#### Following, are the codes which were used for the generation of Addiive White Gaussian Noise (AWGN). <br />
+#### Following, are the codes which were used for the generation of Additive White Gaussian Noise (AWGN). <br />
 #### The noise was created using the numpy library. <br />
 #### For fair comparison and reproducibility seeding was employed. <br />
 
