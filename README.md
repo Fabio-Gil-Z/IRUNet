@@ -67,20 +67,20 @@ Defaults to "False" <br />
 *Use in case you want to resume your training if for some reason it was stopped, it is possible to change it to **"True"**.* <br />
 
 **epoch_assignation = 1000** <br />
- it is possible to choose a number of epochs for training.* <br />
+ it is possible to choose a number of epochs for training. <br />
 
 **filters = 16** <br />
- it is possible to change the number of filters* <br />
+ it is possible to change the number of filters <br />
 
 
 **optimizer = ADAM_optimizer** <br />
 Defaults to: ADAM_optimizer <br />
- it is possible to choose other optimizers, for more information look at [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py)*.<br />
+ it is possible to choose other optimizers, for more information look at [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py).<br />
 
 
 **loss_function   = "MeanAbsoluteError"** <br />
 Defaults to: "MeanAbsoluteError" <br />
- it is possible to use: "MeanSquaredError"*.
+ it is possible to use: "MeanSquaredError".
 
 ### We have successfully finished configuring our [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py) file. <br />
  it is possible to run the program with "python3 [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py)" execution line at the terminal. <br />
