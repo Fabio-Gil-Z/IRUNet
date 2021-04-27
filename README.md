@@ -67,10 +67,10 @@ Defaults to "False" <br />
 *Use in case you want to resume your training if for some reason it was stopped, it is possible to change it to **"True"**.* <br />
 
 **epoch_assignation = 1000** <br />
- it is possible cto hoose a number of epochs for training.* <br />
+ it is possible to choose a number of epochs for training.* <br />
 
 **filters = 16** <br />
- it is possible to choose to change the number of filters* <br />
+ it is possible to change the number of filters* <br />
 
 
 **optimizer = ADAM_optimizer** <br />
