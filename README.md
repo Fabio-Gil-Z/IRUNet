@@ -83,7 +83,7 @@ Defaults to: "MeanAbsoluteError" <br />
  it is possible to use: "MeanSquaredError".
 
 ### We have successfully finished configuring our [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py) file. <br />
- it is possible to run the program with "python3 [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py)" execution line at the terminal. <br />
+ Now it should be possible to run the program with "python3 [main.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/main.py)" execution line at the terminal. <br />
 
 ### Model Testing <br />
 
