@@ -13,7 +13,7 @@ A total of 4314 images of each standard deviation were created with my python pr
 
 It is poissible to use it to create your own training dataset.
 
-Remember below is the training kaggle dataset:
+Remember below it is possible to acquire the original training and testing datasets from kaggle:
 
 ## Original Dataset [Kaggle](https://www.kaggle.com/c/histopathologic-cancer-detection/data)
 ![kaggle dataset description](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/kaggle_dataset_description.png)<br /> <br />
