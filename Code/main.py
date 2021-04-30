@@ -35,7 +35,7 @@ BATCH_SIZE = 32
 #1_clean.tif, 1_noise.tif, 2_clean.tif, 2_noise.tif, etc
 #If you do not have the noise images, please use my noise generator program 'multipleImageNoiseCreator.py' in Utils folder
 #If you do not have the files named as stated, please use my ubuntu snippets in Utils folder
-DATASET_DIRECTORY = "path/to/training_dataset"
+DATASET_DIRECTORY = "path/to/noise_0_to_50"
 
 
 #Please state the directory in which you want to save the model
