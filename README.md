@@ -19,7 +19,7 @@
 ![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/denoised_and_table_results.png) <br /> <br />
 ![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/test_results.png)<br /> <br />
 ## Following are the results obtained using the current IRUNet model and loading the weights and training it for 70 additional epochs.
-It can be appreciated that the loss is not changing (Cyan), however, we can appreciate that the PSNR is indeed changing (Orange). This was the reason we used PSNR to measure the best model instead of loss. Also currently the best results were obtained in epoch 65 which means the model can still be improved.
+It can be appreciated that the loss is not changing (Cyan), however, we can appreciate that the PSNR is indeed changing (Orange). This was the reason we used PSNR to measure the best model instead of loss. Also currently the best results were obtained in epoch 65 which means the model can still be improved. <br /> <br />
 ![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/results_at_the_end_of_each_epoch.png)<br /> <br />
 
 
