@@ -6,8 +6,8 @@ from skimage.metrics import peak_signal_noise_ratio
 from skimage.metrics import structural_similarity
 from skimage.color import rgb2gray
 
-
-
+#Starting to count for the total computation time
+initial_time = time.time()
 def loadImage(file):
 	img = imread(file)
 	img = np.expand_dims(img, axis=0)
@@ -121,3 +121,4 @@ print("Average PSNR: {}".format(average_psnr))
 print("Average SSIM: {}".format(average_ssim))
 
 print("Average computation time per image --- %s seconds ---", (accumulated_time/total_number_of_samples))
+print("Total computation time: {} --- %s seconds ---".format(time.time() - initial_time))
