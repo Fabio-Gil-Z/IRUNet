@@ -15,8 +15,10 @@
 ![Kaggle dataset Sample Images](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/sample_images.png)<br /> <br />
 
 ## Denoising results
-![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/denoised.png)<br /> <br />
 ![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/denoised_2.png)<br /> <br />
+![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/denoised.png) ![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/table_results.png)<br /> <br />
+![Denoising results](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/test_results.png)<br /> <br />
+
 
 ## Requirements <br />
 ### [Tensorflow](https://www.tensorflow.org/install) 2.0 or greater
