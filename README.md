@@ -150,5 +150,5 @@ Here we will be creating a noisy image using [noiseCreatorSingleImage](https://g
 We only need to state two things, the path to the clean image and the **outputput folder** which defaults to [noise_Images_Created_By_User](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util/noise_Images_Created_By_User) and the expected output can be seen in the same folder. <br />
  it is possible to choose the level of corruption, which is stated as **noise_standard_deviation**. <br /><br /><br /><br /><br />
 
-*That would be it for now, if you have any question / suggestions feel free to send me an email to: fhgil@utp.edu.co* <br />
+*That would be it for now, if you have any question / suggestions feel free to send me an email to: fhgil@utp.edu.co, f.gil@studenti.unisa.it* <br />
 *Thank you for reading, have a great day!*
