@@ -1,5 +1,5 @@
-# IRUNet
-## [Pre-publish Paper](https://arxiv.org/abs/2105.00273)
+# Blind microscopy image denoising with a deep residual and multiscale encoder/decoder network
+# IRUNet - [Paper](https://arxiv.org/abs/2105.00273)
 ![IRUNet architecture](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/IRUNet_network_architecture.png)<br /> <br />
 ## Original Dataset [Kaggle](https://www.kaggle.com/c/histopathologic-cancer-detection/data)
 ![kaggle dataset description](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/kaggle_dataset_description.png)<br /> <br />
