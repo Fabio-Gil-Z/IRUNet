@@ -66,7 +66,7 @@ noise_standard_deviation = 50
 
 
 #The shape of the input image, leave it as it is
-#Becuase the shape of the images from the kaggle dataset are fixed at (96,96,3)
+#Because the shape of the images from the kaggle dataset are fixed at (96,96,3)
 shape           = (96,96,3)
 
 
