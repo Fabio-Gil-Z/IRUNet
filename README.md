@@ -5,14 +5,14 @@
 ![kaggle dataset description](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/kaggle_dataset_description.png)<br /> <br />
 ## Created [Datasets](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) for Training and Testing <br />
 ![self created datasets](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/self_created_datasets_sample_image.png)<br /> <br />
-##Cite this paper
-@article{hernan2021blind,
-  title={Blind microscopy image denoising with a deep residual and multiscale encoder/decoder network},
-  author={Hern{\'a}n Gil Zuluaga, Fabio and Bardozzo, Francesco and Iv{\'a}n R{\'\i}os Pati{\~n}o, Jorge and Tagliaferri, Roberto},
-  journal={arXiv e-prints},
-  pages={arXiv--2105},
-  year={2021}
-}
+## Cite this paper
+@article{hernan2021blind, <br />
+  title={Blind microscopy image denoising with a deep residual and multiscale encoder/decoder network}, <br />
+  author={Hern{\'a}n Gil Zuluaga, Fabio and Bardozzo, Francesco and Iv{\'a}n R{\'\i}os Pati{\~n}o, Jorge and Tagliaferri, Roberto}, <br />
+  journal={arXiv e-prints}, <br />
+  pages={arXiv--2105}, <br />
+  year={2021} <br />
+} <br />
 
 ## For model training <br />
 #### [Histopathologic Cancer Detection dataset](https://www.kaggle.com/c/histopathologic-cancer-detection/data) "train" was used to create the training set of images (clean,noise) named [noise_0_to_50](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) using [multipleImageNoiseCreator.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/multipleImageNoiseCreator.py) program from [Util](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util) folder, meaning with noise ranges between σ[0,50].
