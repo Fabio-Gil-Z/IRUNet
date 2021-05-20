@@ -8,7 +8,7 @@
 ## Cite this paper
 @article{hernan2021blind, <br />
   title={Blind microscopy image denoising with a deep residual and multiscale encoder/decoder network}, <br />
-  author={Hern{\'a}n Gil Zuluaga, Fabio and Bardozzo, Francesco and Iv{\'a}n R{\'\i}os Pati{\~n}o, Jorge and Tagliaferri, Roberto}, <br />
+  author={Fabio Hernán Gil Zuluaga, Francesco Bardozzo, Jorge Iván Ríos Patiño, Roberto Tagliaferri}, <br />
   journal={arXiv e-prints}, <br />
   pages={arXiv--2105}, <br />
   year={2021} <br />
