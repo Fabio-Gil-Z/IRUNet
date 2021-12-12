@@ -9,12 +9,16 @@ In computer-aided diagnosis (CAD) focused on microscopy, denoising improves the 
 ## Created [Datasets](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) for Training and Testing <br />
 ![self created datasets](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/self_created_datasets_sample_image.png)<br /> <br />
 ## Cite this paper
-@article{hernan2021blind, <br />
-  title={Blind microscopy image denoising with a deep residual and multiscale encoder/decoder network}, <br />
-  author={Fabio Hernán Gil Zuluaga and Francesco Bardozzo and Jorge Iván Ríos Patiño and Roberto Tagliaferri}, <br />
-  journal={arXiv e-prints}, <br />
-  pages={arXiv--2105}, <br />
-  year={2021} <br />
+
+@INPROCEEDINGS{9630502, <br /> 
+author={Gil Zuluaga, Fabio Hernan and Bardozzo, Francesco and Rios Patino, Jorge Ivan and Tagliaferri, Roberto}, <br /> 
+booktitle={2021 43rd Annual International Conference of the IEEE Engineering in Medicine   Biology Society (EMBC)}, <br />  
+title={Blind microscopy image denoising with a deep residual and multiscale encoder/decoder network}, <br />  
+year={2021}, <br /> 
+volume={}, <br /> 
+number={}, <br /> 
+pages={3483-3486}, <br /> 
+doi={10.1109/EMBC46164.2021.9630502} <br />
 } <br />
 
 ## For model training <br />
