@@ -12,8 +12,8 @@ In computer-aided diagnosis (CAD) focused on microscopy, denoising improves the 
 
 @INPROCEEDINGS{9630502, <br /> 
 author={Gil Zuluaga, Fabio Hernan and Bardozzo, Francesco and Rios Patino, Jorge Ivan and Tagliaferri, Roberto}, <br /> 
-booktitle={2021 43rd Annual International Conference of the IEEE Engineering in Medicine   Biology Society (EMBC)}, <br />  
-title={Blind microscopy image denoising with a deep residual and multiscale encoder/decoder network}, <br />  
+booktitle={2021 43rd Annual International Conference of the IEEE Engineering in Medicine   Biology Society (EMBC)}, <br />
+title={Blind microscopy image denoising with a deep residual and multiscale encoder/decoder network}, <br />
 year={2021}, <br /> 
 volume={}, <br /> 
 number={}, <br /> 
