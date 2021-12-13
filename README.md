@@ -2,7 +2,7 @@
 # Abstract
 In computer-aided diagnosis (CAD) focused on microscopy, denoising improves the quality of image analysis. In general, the accuracy of this process may depend both on the experience of the microscopist and on the equipment sensitivity and specificity. A medical image could be corrupted by both intrinsic noise, due to the device limitations, and, by extrinsic signal perturbations during image acquisition. Nowadays, CAD deep learning applications pre-process images with image denoising models to reinforce learning and prediction. In this work, an innovative and lightweight deep multiscale convolutional encoder-decoder neural network is proposed. Specifically, the encoder uses deterministic mapping to map features into a hidden representation. Then, the latent representation is rebuilt to generate the reconstructed denoised image. Residual learning strategies are used to improve and accelerate the training process using skip connections in bridging across convolutional and deconvolutional layers. The proposed model reaches on average 38.38 of PSNR and 0.98 of SSIM on a test set of 57458 images overcoming state-of-the-art models in the same application domain.
 
-# IRUNet - [Paper](https://arxiv.org/abs/2105.00273)
+# IRUNet - [Paper](https://ieeexplore.ieee.org/document/9630502)
 ![IRUNet architecture](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/IRUNet_network_architecture.png)<br /> <br />
 ## Original Dataset [Kaggle](https://www.kaggle.com/c/histopathologic-cancer-detection/data)
 ![kaggle dataset description](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/kaggle_dataset_description.png)<br /> <br />
