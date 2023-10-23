@@ -4,12 +4,11 @@ In computer-aided diagnosis (CAD) focused on microscopy, denoising improves the 
 
 # IRUNet - [Paper](https://ieeexplore.ieee.org/document/9630502)
 ![IRUNet architecture](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/IRUNet_network_architecture.png)<br /> <br />
-## Original Dataset [Kaggle](https://www.kaggle.com/c/histopathologic-cancer-detection/data)
-![kaggle dataset description](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/kaggle_dataset_description.png)<br /> <br />
-## Created [Datasets](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) for Training and Testing <br />
-![self created datasets](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/self_created_datasets_sample_image.png)<br /> <br />
-## Cite this paper
 
+
+
+## Cite this paper
+<pre><code>
 @INPROCEEDINGS{9630502, <br /> 
 author={Gil Zuluaga, Fabio Hernan and Bardozzo, Francesco and Rios Patino, Jorge Ivan and Tagliaferri, Roberto}, <br /> 
 booktitle={2021 43rd Annual International Conference of the IEEE Engineering in Medicine   Biology Society (EMBC)}, <br />
@@ -20,6 +19,13 @@ number={}, <br />
 pages={3483-3486}, <br /> 
 doi={10.1109/EMBC46164.2021.9630502} <br />
 } <br />
+</code></pre>
+
+## Original Dataset [Kaggle](https://www.kaggle.com/c/histopathologic-cancer-detection/data)
+![kaggle dataset description](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/kaggle_dataset_description.png)<br /> <br />
+## Created [Datasets](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) for Training and Testing <br />
+![self created datasets](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/self_created_datasets_sample_image.png)<br /> <br />
+
 
 ## For model training <br />
 #### [Histopathologic Cancer Detection dataset](https://www.kaggle.com/c/histopathologic-cancer-detection/data) "train" was used to create the training set of images (clean,noise) named [noise_0_to_50](https://drive.google.com/drive/folders/1PdTrAV-PUpFhdvhFtfOggpLbOpDEouLc?usp=sharing) using [multipleImageNoiseCreator.py](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/Code/Util/multipleImageNoiseCreator.py) program from [Util](https://github.com/Fabio-Gil-Z/IRUNet/tree/main/Code/Util) folder, meaning with noise ranges between σ[0,50].
