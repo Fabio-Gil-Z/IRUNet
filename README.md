@@ -8,8 +8,7 @@ In computer-aided diagnosis (CAD) focused on microscopy, denoising improves the 
 
 
 ## Cite this paper
-<pre><code>
-@INPROCEEDINGS{9630502, <br /> 
+<pre><code>@INPROCEEDINGS{9630502, <br /> 
 author={Gil Zuluaga, Fabio Hernan and Bardozzo, Francesco and Rios Patino, Jorge Ivan and Tagliaferri, Roberto}, <br /> 
 booktitle={2021 43rd Annual International Conference of the IEEE Engineering in Medicine   Biology Society (EMBC)}, <br />
 title={Blind microscopy image denoising with a deep residual and multiscale encoder/decoder network}, <br />
@@ -18,8 +17,7 @@ volume={}, <br />
 number={}, <br /> 
 pages={3483-3486}, <br /> 
 doi={10.1109/EMBC46164.2021.9630502} <br />
-} <br />
-</code></pre>
+} <br /></code></pre>
 
 ## Original Dataset [Kaggle](https://www.kaggle.com/c/histopathologic-cancer-detection/data)
 ![kaggle dataset description](https://github.com/Fabio-Gil-Z/IRUNet/blob/main/README_FILES/kaggle_dataset_description.png)<br /> <br />
